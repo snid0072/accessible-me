@@ -1,8 +1,24 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgb(221, 221, 221);
   margin: 0;
   padding: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 h1,
